@@ -2,64 +2,67 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Charles Crane | Web Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hello, i'm ",
+  name: 'Charles.',
+  subtitle: 'A Web Developer based in London.',
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'photo.jpg',
+  paragraphOne: `
+    I'm a Full stack developer based in London. I have experience with Ruby and Ruby on Rails as well as JS, git & GitHub.
+  `,
+  paragraphTwo: `
+  I am currently delving into the Javascript ecosystem learning more about ReactJS and NodeJS.
+  This portfolio was created with a Gatsby starter, which i'm also keen to become proficient with.
+  I am eager to carry on learning more about Full stack development with Javascript as well as improving my Ruby on Rails skills.
+  `,
+  paragraphThree: `
+    I love food.
+    I love coffee.
+    I love to travel.
+    And of course I love all things techy.
+  `,
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'piatto.png',
+    title: 'Piatto',
+    info: 'A social foodie network / dish discovery platform built with Ruby on Rails as a final project for Le Wagon coding bootcamp in London December 2020',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://piat.to',
+    repo: 'https://github.com/liamjxn/piatto', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'mybrary.png',
+    title: 'MyBrary',
+    info: 'An online repository for your personal book collection, currently working on incorporating social functionalities to enable a sort of virtual book club.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/charc46/mybrary', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Contact me if theres anything you want to know!',
+  email: 'charlie.crane46@gmail.com',
   btn: '',
-  email: '',
+  email: 'charlie.crane46@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +70,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/charc46/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/charc46',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
