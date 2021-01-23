@@ -5,7 +5,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-61M8LQ17WK", // Google Analytics / GA
+          "UA-187784776-1", // Google Analytics / GA
         ],
       },
     },
