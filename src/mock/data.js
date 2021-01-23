@@ -52,7 +52,7 @@ export const projectsData = [
     title: 'MyBrary',
     info: 'An online repository for your personal book collection, currently working on incorporating social functionalities to enable a sort of virtual book club.',
     info2: '',
-    url: '',
+    url: 'https://agile-beach-05490.herokuapp.com/',
     repo: 'https://github.com/charc46/mybrary', // if no repo, the button will not show up
   },
 ];
