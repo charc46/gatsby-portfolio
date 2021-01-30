@@ -23,7 +23,6 @@ export const aboutData = {
   `,
   paragraphTwo: `
   I am currently delving into the Javascript ecosystem learning more about ReactJS and NodeJS.
-  This portfolio was created with a Gatsby starter, which i'm also keen to become proficient with.
   I am eager to carry on learning more about Full stack development with Javascript as well as improving my Ruby on Rails skills.
   `,
   paragraphThree: `
